@@ -50,7 +50,7 @@
           </div>
           <div class="row">
             <div class="col-6">
-              <div class="d-flex weather-temperature">
+              <div class="clearfix weather-temperature">
                 <img src="" alt="partly-cloudy" id="icon" class="float-left" />
                 <div class="float-left">
                   <strong id="temperature"></strong
@@ -66,6 +66,22 @@
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind Speed: <span id="wind"></span> km/h</li>
               </ul>
+            </div>
+          </div>
+          <div class="weather-forecast" id="forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Thu</div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="45"
+                />
+                <div class="weather-forecast-temperature">
+                  <span class="weather-forecast-temperature-max">18° </span>
+                  <span class="weather-forecast-temperature-max">12° </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
